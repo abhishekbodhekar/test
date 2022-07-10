@@ -20,6 +20,6 @@ func Handler(res http.ResponseWriter, req *http.Request) {
 }
 
 func Handler2(res http.ResponseWriter, req *http.Request) {
-	res.Write([]byte("suraj"))
+	res.Write([]byte("hi suraj"))
 
 }
